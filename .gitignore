@@ -1,0 +1,28 @@
+.gradle/
+build/
+bin/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+*.class
+*.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.DS_Store
+
+# Env / secrets
+.env
+*.env
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
